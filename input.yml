@@ -1,0 +1,44 @@
+key: value
+"key with quotes" : "value with quotes"
+323 : 2242
+special_chars: "special: characters"
+single_quotes: 'single ''in'' quotes \n'
+double_quotes: "\n \u263A"
+array: 
+  - hello 
+  - world
+  - "!"
+json_array : [hello, world, "!"]
+boolean: true
+null_value: null
+also_null: ~ 
+object:
+  key: value
+  another: value
+  nested_object:
+    nested: value
+    key: value
+json_style_object: {
+    "key": "value",
+    "another": "value",
+    "nested_object": {
+      "nested": "value",
+      "key": "value"
+    }
+  }
+sequence:
+  - Item 1
+  - Item 2
+  - 0.5
+  - key: value
+    another_key: value
+  - - nested array Item
+    - nested array Item 2
+literal_block: | 
+  first line
+  Second line
+  third line
+folded_block: >
+  first line
+  second line
+  third line
